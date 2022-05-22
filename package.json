@@ -1,0 +1,23 @@
+{
+  "name": "ts-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veronika-martinovich/ts-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veronika-martinovich/ts-course/issues"
+  },
+  "homepage": "https://github.com/veronika-martinovich/ts-course#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
