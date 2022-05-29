@@ -32,7 +32,7 @@ type Profession = "economist" | "programmist";
 const person3: {
   name: string;
   age: number;
-  role: Role.ADMIN;
+  role: Role;
   profession: Profession;
 } = {
   name: "Veronika",
