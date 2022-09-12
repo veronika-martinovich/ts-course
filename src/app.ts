@@ -1,8 +1,8 @@
-import { ProjectList } from "./components/project-list.js";
-import { ProjectInput } from "./components/project-input.js";
+import { ProjectList } from "./components/project-list";
+import { ProjectInput } from "./components/project-input";
 
-namespace App {
-  const projInput = new ProjectInput();
-  const activeProjList = new ProjectList("active");
-  const finishedProjList = new ProjectList("finished");
-}
+new ProjectInput();
+new ProjectList("active");
+new ProjectList("finished");
+
+console.log("789465");
